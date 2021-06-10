@@ -4,11 +4,17 @@ build
 example1
 *.a
 
+# Visual Studio files
+**.user
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
 .vscode/
 /SQLiteCpp.sln
 *.ncb
 *.suo
-*.user
 *sdf
 *.vc*
 *~
